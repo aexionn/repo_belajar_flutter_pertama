@@ -30,7 +30,7 @@ class _ConsultationFormScreenState extends State<ConsultationFormScreen> {
   String? selectedPoli;
   DateTime? selectedDate;
 
-  final List<String> poliList = ["Sakit Hati", "Sakit Perut"];
+  final List<String> poliList = ["Poli Gigi", "Poli Umum", "Poli Anak", "Penyakit Dalam"];
 
   bool isLoading = false;
 
